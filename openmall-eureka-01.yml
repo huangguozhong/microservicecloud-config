@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: openmall-eureka-server
+    name:openmall-eureka-server
 
 ---
 server: 
@@ -18,4 +18,4 @@ server:
 spring:
   profiles: test
   application:
-    name: openmall-eureka-server
+    name:openmall-eureka-server
