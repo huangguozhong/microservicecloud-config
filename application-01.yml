@@ -6,9 +6,9 @@ spring:
 spring: 
   profiles: dev #开发环境
   application:
-    name:microservicecloud-config-hgz-dev
+    name: microservicecloud-config-hgz-dev
 ---
 spring: 
   profiles: test #开发环境
   application:
-    name:microservicecloud-config-hgz-test
+    name: microservicecloud-config-hgz-test
