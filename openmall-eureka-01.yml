@@ -3,15 +3,11 @@ spring:
   active:
   - dev
 ---
-server:
-  port: 8020
 spring:
   profiles: dev
   application:
     name: microservicecloud-config-eureka-client
 ---
-server:
-  port: 9020
 spring:
   profiles: test
   application:
