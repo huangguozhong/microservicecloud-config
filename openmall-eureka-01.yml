@@ -3,11 +3,15 @@ spring:
     active:
     - dev
 ---
+server:
+  port: 8020
 spring: 
   profiles: dev #开发环境
   application:
     name: openmall-eureka-dev
 ---
+server:
+  port: 8020
 spring: 
   profiles: test #开发环境
   application:
