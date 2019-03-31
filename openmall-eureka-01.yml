@@ -10,6 +10,7 @@ spring:
   application:
     name: openmall-eureka-server
 
+
 eureka: 
   instance:
     hostname: eureka01.openmall.com #eureka服务端的实例名称
@@ -25,11 +26,12 @@ eureka:
 
 server: 
   port: 9020
- 
 spring:
   profiles: test
   application:
     name: openmall-eureka-server
+
+
 eureka: 
   instance:
     hostname: eureka01.openmall.com #eureka服务端的实例名称
