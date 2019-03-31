@@ -5,14 +5,16 @@ spring:
 ---
 server: 
   port: 8020
+  
 spring:
   profiles: dev
   application:
     name: openmall-eureka-server
-    
+
 ---
 server: 
   port: 9020
+
 spring:
   profiles: test
   application:
