@@ -23,7 +23,6 @@ eureka:
       #defaultZone: http://eureka7001.com:7001/eureka/
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 ---
-
 server: 
   port: 9020
 spring:
